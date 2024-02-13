@@ -1,0 +1,37 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost6 localhost6.localdomain6
+
+### GEAR CLOSE
+# common ( AL2023 updated )
+10.0.100.134    gear-close-gitlab-001
+10.0.100.134    git
+10.0.100.186    gear-close-tool-001
+10.0.100.153    gear-close-bi-001
+
+# development ( AL2023 updated )
+10.0.100.145    gear-dev-docker-001
+10.0.110.225    gear-dev-mega-001
+
+# qa01 ( AL2023 updated )
+10.0.120.23     gear-qa01-mega-001
+10.0.110.62     gear-qa01-batch-001
+
+# qa02 ( AL2023 updated )
+10.0.120.170    gear-qa02-mega-001
+10.0.110.127    gear-qa02-batch-001
+
+# qa03 ( AL2023 updated )
+10.0.120.50   gear-qa03-mega-001
+10.0.110.136  gear-qa03-batch-001
+
+# sec ( AL2023 updated )
+10.0.120.57     gear-sec-mega-001
+10.0.110.149    gear-sec-batch-001
+
+# stg ( AL2023 updated )
+10.0.120.155    gear-stg-mega-001
+10.0.110.153    gear-stg-batch-001
+
+# str ( AL2023 updated )
+10.0.120.124    gear-str-mega-001
+10.0.110.223    gear-str-batch-001

@@ -1,0 +1,17 @@
+- name: copy close hosts
+  copy:
+    src: "files/hosts.close"
+    dest: "/etc/hosts"
+    mode: "0644"
+    owner: "root"
+    group: "root"
+  when: stage == "close"
+
+- name: copy open hosts
+  copy:
+    src: "files/hosts.open"
+    dest: "/etc/hosts"
+    mode: "0644"
+    owner: "root"
+    group: "root"
+  when: stage == "open"

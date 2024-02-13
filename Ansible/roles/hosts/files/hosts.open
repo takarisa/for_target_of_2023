@@ -1,0 +1,14 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost6 localhost6.localdomain6
+
+### GEAR CLOSE
+# common ( AL2023 updated )
+10.1.100.151    gear-open-tool-001
+10.1.100.230    gear-open-bi-001
+10.1.100.107    gear-open-base-001
+10.1.100.234    gear-open-base-003
+10.1.0.224      gear-open-zabbix-001
+
+# production ( AL2023 updated )
+10.1.120.127    gear-prod-mega-001
+10.1.110.27     gear-prod-batch-001
