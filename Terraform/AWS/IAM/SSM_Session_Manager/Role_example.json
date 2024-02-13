@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "sts:AssumeRole",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::123456789000:user/user01",
+          "arn:aws:iam::123456789000:user/user02",
+          "arn:aws:iam::123456789000:user/user03"
+        ]
+      },
+      "Condition": {
+        "Bool": {
+          "aws:MultiFactorAuthPresent": "true"
+        }
+      }
+    }
+  ]
+}
